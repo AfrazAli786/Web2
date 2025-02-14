@@ -1,0 +1,41 @@
+h1{
+    color:cyan
+}
+body{
+    background:linear-gradient( 180deg,#000000,#ff0000,#ffe100)
+}
+p{
+    color:#fffefe
+}
+img{
+
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+
+}
+#ooo{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+
+}
+hr{
+    background-color:#faa300
+}
+footer{
+    text-align:center;
+}
+div{
+    text-align: right;
+    color:#1e91e6
+}
+label{
+    text-align: right;
+}
+#yt{
+    justify-self: start;
+}
+.cent{
+    text-align: center;
+}

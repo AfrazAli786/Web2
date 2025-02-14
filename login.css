@@ -1,0 +1,45 @@
+
+.f1{
+    color:cyan;
+    margin: auto;
+    text-align: center;
+    font-family: Algerian;
+}
+.f2{
+    color:cyan;
+    text-align: center;
+    font-family: Algerian;
+    
+}
+#r1:after{
+	color:cyan;
+}
+table{
+    margin: auto;
+}
+td{
+    margin: auto;
+}
+h1{
+    color: cyan;
+}
+form{
+    text-align: center;
+}
+input{
+    background-color: black;
+    color: whitesmoke;
+}
+::placeholder{
+    color: green;
+}
+input[value]{
+    color: green;
+}
+.co{
+    color:rgb(255, 0, 0);
+    font-family: Algerian;
+}
+.ele{
+    font-family: Elephant;
+}
