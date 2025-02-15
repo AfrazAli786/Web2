@@ -17,12 +17,6 @@ die("Connection failed: "
     $email=$_POST['email'];
     $password=$_POST['password'];
 
-  $checkEmail="SELECT * From users where email='$email'";
-  $result=$conn->query($checkEmail);
-  if($result->num_rows>0){
-     echo "Email Address Already Exists !";
-}
-  else{
      $insertQuery="INSERT INTO users(name,email,password)
                     VALUES ('$name','$email','$password')";
          if($conn->query($insertQuery)==TRUE){
